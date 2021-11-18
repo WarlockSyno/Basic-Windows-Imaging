@@ -15,7 +15,9 @@ For instance, I have my image and **base.bat** file located in:
 
 ### Creating the WinPE Image
 The **startnet.cmd** and **imagestart.bat** are added to a WinPE boot.wim file under System32. You can use the following guide to create a WinPE image:
+
 https://charbelnemnom.com/how-to-create-a-custom-winpe-boot-image-with-powershell-support-powershell-deploy-windowsserver/
+
 **NOTE:** Make sure to install PowerShell using the guide, as the **imagestart.bat** uses PowerShell for secure text storage
 
 Using the instructions from the link above you will stop at **Creating a WinPE ISO Image**, from there you will edit **imagestart.bat** and set the following variables:
