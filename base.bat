@@ -1,21 +1,6 @@
 @echo off
-REM These commands copy the selected image file to
-REM predefined hard disk partitions on a BIOS-based computer.
-
 REM Usage:   base.bat WimFileName 
-REM Example: base.bat E:\Images\ThinImage.wim
-REM =======================================================================================
-REM
-REM =======================================================================================
-
-REM Enviromental Variables
-
-
-REM =======================================================================================
-REM 
-REM =======================================================================================
-REM
-REM
+REM Example: base.bat Images\ThinImage.wim
 REM
 REM Set high-performance power scheme to speed deployment
 call powercfg /s 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
