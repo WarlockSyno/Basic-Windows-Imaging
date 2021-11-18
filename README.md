@@ -3,6 +3,8 @@ A very simple and effective way to image Windows based machines using WIM files.
 
 These are a few basic scripts that I've been using for a few years now to image Windows PCs. This is a good alternative for those using Clonezilla, FOG, or the like to deploy Windows based images. It's much faster and simpler than those alternatives. 
 
+![](example.gif)
+
 ## Getting Started
 ### The image host and folder
 **imagestart.bat** will mount a network folder as the N:\ drive in order to see the **base.bat** file and your WIM files. Make sure the account you'll be using to install these images has access to the network share. 
