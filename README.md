@@ -24,7 +24,7 @@ Save the file and copy both the **imagestart.bat** and **startnet.cmd** to the S
 
 Follow the rest of the instructions provided in the link above. Make sure to add the network, storage, and chipset drivers needed for the majority of the devices you will be imaging.
 
-## Creating a base image
+### Creating a base image
 This tool and guide isn't meant to show you how to create WIMs but a simple and easy way that I create them is download whichever version of Windows from Microsoft that you'd like using the [Windows Media Creation](https://www.microsoft.com/en-us/software-download/windows10) tool, extract the iso to a folder, then use a tool like [NTLite](https://www.ntlite.com/) to strip uneeded Microsoft bloat, install updates, install drivers, etc. The tool currently selects #1 indexed image within the WIM but the script could be easily modified to use a value as a variable to pick which image within the image to write onto the disk.
 
 ## Getting the tools ready
