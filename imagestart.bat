@@ -12,7 +12,7 @@ REM Ping the server that hosts the images as a network check
 cls
 echo Waiting for network connection...
 ping localhost >nul
-ping -n 1 der-dtc | find "TTL=" >nul
+ping -n 1 %IMAGESERVER% | find "TTL=" >nul
 if %errorlevel% == 0 (
 	GOTO NETWORK_SUCCESS
 ) else (
